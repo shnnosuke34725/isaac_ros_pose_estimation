@@ -1,0 +1,867 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2026-01-28-16-34-33-269074-yushu-4090-10080
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [component_container_mt-1]: process started with pid [10124]
+[component_container_mt-1] [INFO] [1769589273.599915823] [isaac_ros_examples.container]: Load Library: /opt/ros/jazzy/lib/librealsense2_camera.so
+[component_container_mt-1] [INFO] [1769589273.656107584] [isaac_ros_examples.container]: Found class: rclcpp_components::NodeFactoryTemplate<realsense2_camera::RealSenseNodeFactory>
+[component_container_mt-1] [INFO] [1769589273.656145866] [isaac_ros_examples.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<realsense2_camera::RealSenseNodeFactory>
+[component_container_mt-1] [INFO] [1769589273.677075620] [camera]: RealSense ROS v4.56.3
+[component_container_mt-1] [INFO] [1769589273.677095183] [camera]: Built with LibRealSense v2.56.3
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/camera' in container '/isaac_ros_examples/container'
+[component_container_mt-1] [INFO] [1769589273.677099302] [camera]: Running with LibRealSense v2.56.3
+[component_container_mt-1] [INFO] [1769589273.680807318] [isaac_ros_examples.container]: Load Library: /opt/ros/jazzy/lib/libconvert_metric_node.so
+[component_container_mt-1] [INFO] [1769589273.715950758] [isaac_ros_examples.container]: Found class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::depth_image_proc::ConvertMetricNode>
+[component_container_mt-1] [INFO] [1769589273.715983990] [isaac_ros_examples.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::depth_image_proc::ConvertMetricNode>
+[component_container_mt-1] [INFO] [1769589273.763553047] [NitrosContext]: [NitrosContext] Loading extension: gxf/lib/std/libgxf_std.so
+[component_container_mt-1] [INFO] [1769589273.764190125] [NitrosContext]: [NitrosContext] Loading extension: gxf/lib/cuda/libgxf_cuda.so
+[component_container_mt-1] [INFO] [1769589273.765525908] [NitrosContext]: [NitrosContext] Loading extension: gxf/lib/libgxf_isaac_gxf_helpers.so
+[component_container_mt-1] [INFO] [1769589273.767127078] [NitrosContext]: [NitrosContext] Loading extension: gxf/lib/libgxf_isaac_sight.so
+[component_container_mt-1] [INFO] [1769589273.768912783] [NitrosContext]: [NitrosContext] Loading extension: gxf/lib/libgxf_isaac_atlas.so
+[component_container_mt-1]  28/01 16:34:33,816 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:33,826 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:33,836 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:33,847 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1] [33m2026-01-28 16:34:33.850 WARN  external/com_nvidia_gxf/gxf/std/program.cpp@538: No GXF scheduler specified.[0m
+[component_container_mt-1] [INFO] [1769589273.850153462] [NitrosContext]: [NitrosContext] Successfully allocated 3 CUDA streams
+[component_container_mt-1] [INFO] [1769589273.850190754] [NitrosContext]: [NitrosContext] Loading extension: gxf/lib/multimedia/libgxf_multimedia.so
+[component_container_mt-1] [INFO] [1769589273.853161788] [convert_metric.ManagedNitrosSubscriber]: Starting Managed Nitros Subscriber
+[component_container_mt-1] [INFO] [1769589273.853558236] [convert_metric.ManagedNitrosPublisher]: Starting Managed Nitros Publisher
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/convert_metric' in container '/isaac_ros_examples/container'
+[component_container_mt-1] [INFO] [1769589273.854284927] [isaac_ros_examples.container]: Load Library: /opt/ros/jazzy/lib/libisaac_ros_nitros_camera_drop_node.so
+[component_container_mt-1] [INFO] [1769589273.857062995] [isaac_ros_examples.container]: Found class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::nitros::NitrosCameraDropNode>
+[component_container_mt-1] [INFO] [1769589273.857072296] [isaac_ros_examples.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::nitros::NitrosCameraDropNode>
+[component_container_mt-1]  28/01 16:34:33,857 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1] [INFO] [1769589273.859160812] [drop_node.ManagedNitrosSubscriber]: Starting Managed Nitros Subscriber
+[component_container_mt-1] [INFO] [1769589273.859734665] [drop_node.ManagedNitrosPublisher]: Starting Managed Nitros Publisher
+[component_container_mt-1] [INFO] [1769589273.860221362] [drop_node.ManagedNitrosSubscriber]: Starting Managed Nitros Subscriber
+[component_container_mt-1] [INFO] [1769589273.860238554] [convert_metric]: Negotiating
+[component_container_mt-1] [INFO] [1769589273.860250724] [convert_metric]: Could not negotiate
+[component_container_mt-1] [INFO] [1769589273.860521849] [drop_node.ManagedNitrosPublisher]: Starting Managed Nitros Publisher
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/drop_node' in container '/isaac_ros_examples/container'
+[component_container_mt-1] [INFO] [1769589273.861137915] [isaac_ros_examples.container]: Load Library: /opt/ros/jazzy/lib/libresize_node.so
+[component_container_mt-1] [INFO] [1769589273.862128607] [isaac_ros_examples.container]: Found class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::image_proc::ResizeNode>
+[component_container_mt-1] [INFO] [1769589273.862135600] [isaac_ros_examples.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::image_proc::ResizeNode>
+[component_container_mt-1] [INFO] [1769589273.863756198] [resize_left_rt_detr_node]: [NitrosNode] Initializing NitrosNode
+[component_container_mt-1] [INFO] [1769589273.863916399] [resize_left_rt_detr_node]: [ResizeNode] Set output data format to: "nitros_image_rgb8"
+[component_container_mt-1] [INFO] [1769589273.863942597] [resize_left_rt_detr_node]: [NitrosNode] Starting NitrosNode
+[component_container_mt-1]  28/01 16:34:33,867 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1] [INFO] [1769589273.872147948] [resize_left_rt_detr_node]: [NitrosNode] Loading extensions
+[component_container_mt-1] [INFO] [1769589273.872170793] [resize_left_rt_detr_node]: [NitrosContext] Loading extension: gxf/lib/libgxf_isaac_message_compositor.so
+[component_container_mt-1] [INFO] [1769589273.872344973] [resize_left_rt_detr_node]: [NitrosContext] Loading extension: gxf/lib/libgxf_isaac_tensorops.so
+[component_container_mt-1] [INFO] [1769589273.875087507] [resize_left_rt_detr_node]: [NitrosContext] Loading extension: gxf/lib/libgxf_isaac_camera_utils.so
+[component_container_mt-1] [INFO] [1769589273.875327350] [resize_left_rt_detr_node]: [NitrosNode] Loading graph to the optimizer
+[component_container_mt-1] [INFO] [1769589273.877058687] [resize_left_rt_detr_node]: [NitrosNode] Running optimization
+[component_container_mt-1]  28/01 16:34:33,877 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1] [INFO] [1769589273.925474404] [camera]: Device with serial number 318122301121 was found.
+[component_container_mt-1] 
+[component_container_mt-1] [INFO] [1769589273.925530021] [camera]: Device with physical ID 2-2-9 was found.
+[component_container_mt-1] [INFO] [1769589273.925532792] [camera]: Device with name Intel RealSense D455 was found.
+[component_container_mt-1] [INFO] [1769589273.925617483] [camera]: Device with port number 2-2 was found.
+[component_container_mt-1] [INFO] [1769589273.925624060] [camera]: Device USB type: 3.2
+[component_container_mt-1] [INFO] [1769589273.925664080] [camera]: getParameters...
+[component_container_mt-1] [INFO] [1769589273.925852480] [camera]: JSON file is not provided
+[component_container_mt-1] [INFO] [1769589273.925857161] [camera]: Device Name: Intel RealSense D455
+[component_container_mt-1] [INFO] [1769589273.925862337] [camera]: Device Serial No: 318122301121
+[component_container_mt-1] [INFO] [1769589273.925864886] [camera]: Device physical port: 2-2-9
+[component_container_mt-1] [INFO] [1769589273.925867081] [camera]: Device FW version: 5.13.0.55
+[component_container_mt-1] [INFO] [1769589273.925869006] [camera]: Device Product ID: 0x0B5C
+[component_container_mt-1] [INFO] [1769589273.925871129] [camera]: Sync Mode: Off
+[component_container_mt-1] [INFO] [1769589273.952251290] [resize_left_rt_detr_node]: [NitrosNode] Obtaining graph IO group info from the optimizer
+[component_container_mt-1] [INFO] [1769589273.953478461] [resize_left_rt_detr_node]: [NitrosPublisherSubscriberGroup] Pinning the component "image_sink/sink" (type="nvidia::isaac_ros::MessageRelay") to use its compatible format only: "nitros_image_rgb8"
+[component_container_mt-1] [INFO] [1769589273.956021829] [resize_left_rt_detr_node]: [NitrosNode] Starting negotiation...
+[component_container_mt-1] [INFO] [1769589273.956223569] [drop_node]: Negotiating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/resize_left_rt_detr_node' in container '/isaac_ros_examples/container'
+[component_container_mt-1] [INFO] [1769589273.957052793] [isaac_ros_examples.container]: Load Library: /opt/ros/jazzy/lib/libpad_node.so
+[component_container_mt-1] [INFO] [1769589273.958137829] [isaac_ros_examples.container]: Found class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::image_proc::PadNode>
+[component_container_mt-1] [INFO] [1769589273.958149429] [isaac_ros_examples.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::image_proc::PadNode>
+[component_container_mt-1] [INFO] [1769589273.960697412] [pad_node.ManagedNitrosSubscriber]: Starting Managed Nitros Subscriber
+[component_container_mt-1] [INFO] [1769589273.960775073] [resize_left_rt_detr_node]: Negotiating
+[component_container_mt-1] [INFO] [1769589273.960796537] [resize_left_rt_detr_node]: Could not negotiate
+[component_container_mt-1] [INFO] [1769589273.960811090] [drop_node]: Negotiating
+[component_container_mt-1] [INFO] [1769589273.961076872] [pad_node.ManagedNitrosPublisher]: Starting Managed Nitros Publisher
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/pad_node' in container '/isaac_ros_examples/container'
+[component_container_mt-1] [INFO] [1769589273.961933275] [isaac_ros_examples.container]: Load Library: /opt/ros/jazzy/lib/libimage_to_tensor_node.so
+[component_container_mt-1] [INFO] [1769589273.966177412] [isaac_ros_examples.container]: Found class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::dnn_inference::ImageToTensorNode>
+[component_container_mt-1] [INFO] [1769589273.966188145] [isaac_ros_examples.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::dnn_inference::ImageToTensorNode>
+[component_container_mt-1] [INFO] [1769589273.968507741] [image_to_tensor_node.ManagedNitrosSubscriber]: Starting Managed Nitros Subscriber
+[component_container_mt-1] [INFO] [1769589273.968515608] [pad_node]: Negotiating
+[component_container_mt-1] [INFO] [1769589273.969405189] [image_to_tensor_node.ManagedNitrosPublisher]: Starting Managed Nitros Publisher
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/image_to_tensor_node' in container '/isaac_ros_examples/container'
+[component_container_mt-1] [INFO] [1769589273.970172132] [isaac_ros_examples.container]: Load Library: /opt/ros/jazzy/lib/libinterleaved_to_planar_node.so
+[component_container_mt-1] [INFO] [1769589273.970930710] [isaac_ros_examples.container]: Found class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::dnn_inference::InterleavedToPlanarNode>
+[component_container_mt-1] [INFO] [1769589273.970942953] [isaac_ros_examples.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::dnn_inference::InterleavedToPlanarNode>
+[component_container_mt-1] [INFO] [1769589273.973662930] [interleaved_to_planar_node]: [NitrosNode] Initializing NitrosNode
+[component_container_mt-1] [INFO] [1769589273.973834982] [interleaved_to_planar_node]: [NitrosNode] Starting NitrosNode
+[component_container_mt-1] [INFO] [1769589273.976196986] [interleaved_to_planar_node]: [NitrosNode] Loading extensions
+[component_container_mt-1] [INFO] [1769589273.976242169] [interleaved_to_planar_node]: [NitrosNode] Loading graph to the optimizer
+[component_container_mt-1] [INFO] [1769589273.977063245] [interleaved_to_planar_node]: [NitrosNode] Running optimization
+[component_container_mt-1] [INFO] [1769589273.980809617] [interleaved_to_planar_node]: [NitrosNode] Obtaining graph IO group info from the optimizer
+[component_container_mt-1] [INFO] [1769589273.981971022] [interleaved_to_planar_node]: [NitrosNode] Starting negotiation...
+[component_container_mt-1] [INFO] [1769589273.982113284] [image_to_tensor_node]: Negotiating
+[component_container_mt-1] [INFO] [1769589273.982126701] [image_to_tensor_node]: Could not negotiate
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/interleaved_to_planar_node' in container '/isaac_ros_examples/container'
+[component_container_mt-1] [INFO] [1769589273.982851664] [isaac_ros_examples.container]: Load Library: /opt/ros/jazzy/lib/libreshape_node.so
+[component_container_mt-1] [INFO] [1769589273.983588227] [isaac_ros_examples.container]: Found class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::dnn_inference::ReshapeNode>
+[component_container_mt-1] [INFO] [1769589273.983597731] [isaac_ros_examples.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::dnn_inference::ReshapeNode>
+[component_container_mt-1] [INFO] [1769589273.985616058] [reshape_node]: [NitrosNode] Initializing NitrosNode
+[component_container_mt-1] [INFO] [1769589273.985805074] [reshape_node]: [NitrosNode] Starting NitrosNode
+[component_container_mt-1] [INFO] [1769589273.988232578] [reshape_node]: [NitrosNode] Loading extensions
+[component_container_mt-1] [INFO] [1769589273.988269919] [reshape_node]: [NitrosNode] Loading graph to the optimizer
+[component_container_mt-1] [INFO] [1769589273.989126065] [reshape_node]: [NitrosNode] Running optimization
+[component_container_mt-1] [INFO] [1769589273.992972828] [reshape_node]: [NitrosNode] Obtaining graph IO group info from the optimizer
+[component_container_mt-1] [INFO] [1769589273.994195683] [reshape_node]: [NitrosNode] Starting negotiation...
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/reshape_node' in container '/isaac_ros_examples/container'
+[component_container_mt-1] [INFO] [1769589273.994341267] [interleaved_to_planar_node]: Negotiating
+[component_container_mt-1] [INFO] [1769589273.994460430] [image_to_tensor_node]: Negotiating
+[component_container_mt-1] [INFO] [1769589273.994473559] [image_to_tensor_node]: Could not negotiate
+[component_container_mt-1] [INFO] [1769589273.995132246] [isaac_ros_examples.container]: Load Library: /opt/ros/jazzy/lib/librtdetr_preprocessor_node.so
+[component_container_mt-1] [INFO] [1769589273.995814855] [isaac_ros_examples.container]: Found class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::rtdetr::RtDetrPreprocessorNode>
+[component_container_mt-1] [INFO] [1769589273.995823147] [isaac_ros_examples.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::rtdetr::RtDetrPreprocessorNode>
+[component_container_mt-1] [INFO] [1769589273.998397582] [rtdetr_preprocessor.ManagedNitrosSubscriber]: Starting Managed Nitros Subscriber
+[component_container_mt-1] [INFO] [1769589273.998510981] [reshape_node]: Negotiating
+[component_container_mt-1] [INFO] [1769589273.998652003] [interleaved_to_planar_node]: Negotiating
+[component_container_mt-1] [INFO] [1769589273.998735465] [image_to_tensor_node]: Negotiating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/rtdetr_preprocessor' in container '/isaac_ros_examples/container'
+[component_container_mt-1] [INFO] [1769589273.998745908] [image_to_tensor_node]: Could not negotiate
+[component_container_mt-1] [INFO] [1769589273.998760143] [rtdetr_preprocessor.ManagedNitrosPublisher]: Starting Managed Nitros Publisher
+[component_container_mt-1] [INFO] [1769589273.999564821] [isaac_ros_examples.container]: Load Library: /opt/ros/jazzy/lib/libtensor_rt_node.so
+[component_container_mt-1] [INFO] [1769589274.021044395] [isaac_ros_examples.container]: Found class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::dnn_inference::TensorRTNode>
+[component_container_mt-1] [INFO] [1769589274.021080954] [isaac_ros_examples.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::dnn_inference::TensorRTNode>
+[component_container_mt-1] [INFO] [1769589274.023690051] [tensor_rt]: [NitrosNode] Initializing NitrosNode
+[component_container_mt-1] [INFO] [1769589274.024065591] [tensor_rt]: [NitrosNode] Starting NitrosNode
+[component_container_mt-1] [INFO] [1769589274.025950157] [tensor_rt]: [NitrosNode] Loading extensions
+[component_container_mt-1] [INFO] [1769589274.025986514] [tensor_rt]: [NitrosContext] Loading extension: gxf/lib/serialization/libgxf_serialization.so
+[component_container_mt-1] [INFO] [1769589274.026371670] [tensor_rt]: [NitrosContext] Loading extension: gxf/lib/libgxf_isaac_tensor_rt.so
+[component_container_mt-1] [INFO] [1769589274.026738830] [tensor_rt]: [NitrosNode] Loading graph to the optimizer
+[component_container_mt-1] [INFO] [1769589274.027474311] [tensor_rt]: [NitrosNode] Running optimization
+[component_container_mt-1] [INFO] [1769589274.034023830] [tensor_rt]: [NitrosNode] Obtaining graph IO group info from the optimizer
+[component_container_mt-1] [INFO] [1769589274.034547295] [tensor_rt]: [NitrosPublisherSubscriberGroup] Pinning the component "inference/rx" (type="nvidia::gxf::DoubleBufferReceiver") to use its compatible format only: "nitros_tensor_list_nchw_rgb_f32"
+[component_container_mt-1] [INFO] [1769589274.034566912] [tensor_rt]: [NitrosPublisherSubscriberGroup] Pinning the component "sink/sink" (type="nvidia::isaac_ros::MessageRelay") to use its compatible format only: "nitros_tensor_list_nhwc_rgb_f32"
+[component_container_mt-1] [INFO] [1769589274.035879534] [tensor_rt]: [NitrosNode] Starting negotiation...
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/tensor_rt' in container '/isaac_ros_examples/container'
+[component_container_mt-1] [INFO] [1769589274.036088088] [rtdetr_preprocessor]: Negotiating
+[component_container_mt-1] [INFO] [1769589274.037029853] [isaac_ros_examples.container]: Load Library: /opt/ros/jazzy/lib/librtdetr_decoder_node.so
+[component_container_mt-1] [INFO] [1769589274.037928524] [isaac_ros_examples.container]: Found class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::rtdetr::RtDetrDecoderNode>
+[component_container_mt-1] [INFO] [1769589274.037937550] [isaac_ros_examples.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::rtdetr::RtDetrDecoderNode>
+[component_container_mt-1] [INFO] [1769589274.040817252] [rtdetr_decoder.ManagedNitrosSubscriber]: Starting Managed Nitros Subscriber
+[component_container_mt-1] [INFO] [1769589274.041034127] [tensor_rt]: Negotiating
+[component_container_mt-1] [INFO] [1769589274.041044941] [tensor_rt]: Could not negotiate
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/rtdetr_decoder' in container '/isaac_ros_examples/container'
+[component_container_mt-1] [INFO] [1769589274.042478124] [isaac_ros_examples.container]: Load Library: /opt/ros/jazzy/lib/libdetection2_d_array_filter.so
+[component_container_mt-1] [INFO] [1769589274.043049769] [isaac_ros_examples.container]: Found class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::foundationpose::Detection2DArrayFilter>
+[component_container_mt-1] [INFO] [1769589274.043057441] [isaac_ros_examples.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::foundationpose::Detection2DArrayFilter>
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/detection2_d_array_filter' in container '/isaac_ros_examples/container'
+[component_container_mt-1] [INFO] [1769589274.046460921] [isaac_ros_examples.container]: Load Library: /opt/ros/jazzy/lib/libdetection2_d_to_mask.so
+[component_container_mt-1] [INFO] [1769589274.047653732] [isaac_ros_examples.container]: Found class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::foundationpose::Detection2DToMask>
+[component_container_mt-1] [INFO] [1769589274.047663870] [isaac_ros_examples.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::foundationpose::Detection2DToMask>
+[component_container_mt-1] [INFO] [1769589274.050579396] [detection2_d_to_mask]: Mask Height: 480, Mask Width: 640
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/detection2_d_to_mask' in container '/isaac_ros_examples/container'
+[component_container_mt-1] [INFO] [1769589274.051586958] [isaac_ros_examples.container]: Found class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::image_proc::ResizeNode>
+[component_container_mt-1] [INFO] [1769589274.051605635] [isaac_ros_examples.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::image_proc::ResizeNode>
+[component_container_mt-1] [INFO] [1769589274.056467654] [resize_mask_node]: [NitrosNode] Initializing NitrosNode
+[component_container_mt-1] [INFO] [1769589274.056997694] [resize_mask_node]: [NitrosNode] Starting NitrosNode
+[component_container_mt-1] [INFO] [1769589274.065473116] [resize_mask_node]: [NitrosNode] Loading extensions
+[component_container_mt-1] [INFO] [1769589274.065532753] [resize_mask_node]: [NitrosNode] Loading graph to the optimizer
+[component_container_mt-1] [INFO] [1769589274.067052363] [resize_mask_node]: [NitrosNode] Running optimization
+[component_container_mt-1] [INFO] [1769589274.150523706] [resize_mask_node]: [NitrosNode] Obtaining graph IO group info from the optimizer
+[component_container_mt-1] [INFO] [1769589274.153663916] [resize_mask_node]: [NitrosNode] Starting negotiation...
+[component_container_mt-1] [INFO] [1769589274.153972526] [resize_left_rt_detr_node]: Negotiating
+[component_container_mt-1] [INFO] [1769589274.153995041] [resize_left_rt_detr_node]: Could not negotiate
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/resize_mask_node' in container '/isaac_ros_examples/container'
+[component_container_mt-1] [INFO] [1769589274.155224510] [isaac_ros_examples.container]: Found class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::image_proc::ResizeNode>
+[component_container_mt-1] [INFO] [1769589274.155237742] [isaac_ros_examples.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::image_proc::ResizeNode>
+[component_container_mt-1] [INFO] [1769589274.158124920] [resize_left_viz]: [NitrosNode] Initializing NitrosNode
+[component_container_mt-1] [INFO] [1769589274.158507717] [resize_left_viz]: [ResizeNode] Set output data format to: "nitros_image_rgb8"
+[component_container_mt-1] [INFO] [1769589274.158531115] [resize_left_viz]: [NitrosNode] Starting NitrosNode
+[component_container_mt-1] [INFO] [1769589274.166546558] [resize_left_viz]: [NitrosNode] Loading extensions
+[component_container_mt-1] [INFO] [1769589274.166604595] [resize_left_viz]: [NitrosNode] Loading graph to the optimizer
+[component_container_mt-1] [INFO] [1769589274.168102953] [resize_left_viz]: [NitrosNode] Running optimization
+[component_container_mt-1] [INFO] [1769589274.242271846] [resize_left_viz]: [NitrosNode] Obtaining graph IO group info from the optimizer
+[component_container_mt-1] [INFO] [1769589274.243561097] [resize_left_viz]: [NitrosPublisherSubscriberGroup] Pinning the component "image_sink/sink" (type="nvidia::isaac_ros::MessageRelay") to use its compatible format only: "nitros_image_rgb8"
+[component_container_mt-1] [INFO] [1769589274.246970457] [resize_left_viz]: [NitrosNode] Starting negotiation...
+[component_container_mt-1] [INFO] [1769589274.247324373] [drop_node]: Negotiating
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/resize_left_viz' in container '/isaac_ros_examples/container'
+[component_container_mt-1] [INFO] [1769589274.248227794] [isaac_ros_examples.container]: Load Library: /opt/ros/jazzy/lib/libfoundationpose_node.so
+[component_container_mt-1] [INFO] [1769589274.250119031] [isaac_ros_examples.container]: Found class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::foundationpose::FoundationPoseNode>
+[component_container_mt-1] [INFO] [1769589274.250132444] [isaac_ros_examples.container]: Instantiate class: rclcpp_components::NodeFactoryTemplate<nvidia::isaac_ros::foundationpose::FoundationPoseNode>
+[component_container_mt-1] [INFO] [1769589274.252787654] [foundationpose_node]: [NitrosNode] Initializing NitrosNode
+[component_container_mt-1] [INFO] [1769589274.254073280] [foundationpose_node]: [NitrosNode] Starting NitrosNode
+[component_container_mt-1] [INFO] [1769589274.256712771] [foundationpose_node]: [NitrosNode] Loading extensions
+[component_container_mt-1] [INFO] [1769589274.256756128] [foundationpose_node]: [NitrosContext] Loading extension: gxf/lib/libgxf_isaac_depth_image_proc.so
+[component_container_mt-1] [INFO] [1769589274.260482009] [foundationpose_node]: [NitrosContext] Loading extension: gxf/lib/libgxf_isaac_sgm.so
+[component_container_mt-1] [INFO] [1769589274.260806779] [foundationpose_node]: [NitrosContext] Loading extension: gxf/lib/libgxf_isaac_messages.so
+[component_container_mt-1] [INFO] [1769589274.261072139] [foundationpose_node]: [NitrosContext] Loading extension: gxf/lib/libgxf_isaac_ros_messages.so
+[component_container_mt-1] [INFO] [1769589274.261187604] [foundationpose_node]: [NitrosContext] Loading extension: gxf/lib/libgxf_isaac_foundationpose.so
+[component_container_mt-1] [INFO] [1769589274.264256489] [foundationpose_node]: [NitrosNode] Loading graph to the optimizer
+[component_container_mt-1] [INFO] [1769589274.271428026] [foundationpose_node]: [NitrosNode] Running optimization
+[component_container_mt-1] [WARN] [1769589274.456286875] [camera]: re-enable the stream for the change to take effect.
+[component_container_mt-1] [WARN] [1769589274.456678954] [camera]: re-enable the stream for the change to take effect.
+[component_container_mt-1] [WARN] [1769589274.457098570] [camera]: re-enable the stream for the change to take effect.
+[component_container_mt-1] [WARN] [1769589274.515267403] [camera]: re-enable the stream for the change to take effect.
+[component_container_mt-1] [INFO] [1769589274.519250950] [camera]: Stopping Sensor: Depth Module
+[component_container_mt-1] [INFO] [1769589274.519325126] [camera]: Stopping Sensor: RGB Camera
+[component_container_mt-1] [INFO] [1769589274.519343775] [camera]: Stopping Sensor: Motion Module
+[component_container_mt-1] [INFO] [1769589274.543008151] [camera]: Starting Sensor: Depth Module
+[component_container_mt-1] [INFO] [1769589274.546157023] [foundationpose_node]: [NitrosNode] Obtaining graph IO group info from the optimizer
+[component_container_mt-1] [INFO] [1769589274.550839527] [camera]: Open profile: stream_type: Depth(0), Format: Z16, Width: 640, Height: 480, FPS: 15
+[component_container_mt-1]  28/01 16:34:34,551 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1] [INFO] [1769589274.559217648] [foundationpose_node]: [NitrosNode] Starting negotiation...
+[INFO] [launch_ros.actions.load_composable_nodes]: Loaded node '/foundationpose_node' in container '/isaac_ros_examples/container'
+[component_container_mt-1] [INFO] [1769589274.560251549] [drop_node]: Negotiating
+[component_container_mt-1] [INFO] [1769589274.560269640] [drop_node]: Could not negotiate
+[component_container_mt-1] [INFO] [1769589274.560265925] [resize_mask_node]: Negotiating
+[component_container_mt-1] [INFO] [1769589274.561126540] [drop_node]: Negotiating
+[component_container_mt-1]  28/01 16:34:34,561 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1] [INFO] [1769589274.561580108] [resize_left_rt_detr_node]: Negotiating
+[component_container_mt-1] [INFO] [1769589274.561591840] [resize_left_rt_detr_node]: Could not negotiate
+[component_container_mt-1] [INFO] [1769589274.563823296] [foundationpose_node]: Negotiating
+[component_container_mt-1] [INFO] [1769589274.563865189] [foundationpose_node]: Could not negotiate
+[component_container_mt-1] [INFO] [1769589274.563876659] [foundationpose_node]: Negotiating
+[component_container_mt-1] [INFO] [1769589274.563882106] [foundationpose_node]: Could not negotiate
+[component_container_mt-1]  28/01 16:34:34,571 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:34,581 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:34,591 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:34,602 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:34,612 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:34,622 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:34,632 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:34,643 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:34,653 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1] [INFO] [1769589274.663748073] [camera]: Starting Sensor: RGB Camera
+[component_container_mt-1] [INFO] [1769589274.668923487] [camera]: Open profile: stream_type: Color(0), Format: RGB8, Width: 640, Height: 480, FPS: 15
+[component_container_mt-1]  28/01 16:34:34,670 WARNING [128637839857344] (ds-calib-parsers.cpp:35) IMU Calibration is not available, default intrinsic and extrinsic will be used.
+[component_container_mt-1] [INFO] [1769589274.671904333] [camera]: Starting Sensor: Motion Module
+[component_container_mt-1] [INFO] [1769589274.952191997] [camera]: Open profile: stream_type: Accel(0)Format: MOTION_XYZ32F, FPS: 100
+[component_container_mt-1] [INFO] [1769589274.952225565] [camera]: Open profile: stream_type: Gyro(0)Format: MOTION_XYZ32F, FPS: 200
+[component_container_mt-1] [INFO] [1769589274.956421845] [resize_left_rt_detr_node]: [NitrosNode] Starting post negotiation setup
+[component_container_mt-1] [INFO] [1769589274.956439103] [resize_left_rt_detr_node]: [NitrosNode] Getting data format negotiation results
+[component_container_mt-1] [INFO] [1769589274.956445697] [resize_left_rt_detr_node]: [NitrosPublisher] Negotiation ended with no results
+[component_container_mt-1] [INFO] [1769589274.956448431] [resize_left_rt_detr_node]: [NitrosPublisher] Use only the compatible publisher: topic_name="/color_image_resized", data_format="nitros_image_rgb8"
+[component_container_mt-1] [INFO] [1769589274.956451357] [resize_left_rt_detr_node]: [NitrosPublisher] Negotiation ended with no results
+[component_container_mt-1] [INFO] [1769589274.956453406] [resize_left_rt_detr_node]: [NitrosPublisher] Use only the compatible publisher: topic_name="/camera_info_resized", data_format="nitros_camera_info"
+[component_container_mt-1] [INFO] [1769589274.956457242] [resize_left_rt_detr_node]: [NitrosSubscriber] Use the negotiated data format: "nitros_image_rgb8"
+[component_container_mt-1] [INFO] [1769589274.956460557] [resize_left_rt_detr_node]: [NitrosSubscriber] Negotiation ended with no results
+[component_container_mt-1] [INFO] [1769589274.956462265] [resize_left_rt_detr_node]: [NitrosSubscriber] Use the compatible subscriber: topic_name="/rgb/camera_info", data_format="nitros_camera_info"
+[component_container_mt-1] [INFO] [1769589274.956540888] [resize_left_rt_detr_node]: [NitrosNode] Exporting the final graph based on the negotiation results
+[component_container_mt-1] [INFO] [1769589274.960936445] [resize_left_rt_detr_node]: [NitrosNode] Wrote the final top level YAML graph to "/tmp/isaac_ros_nitros/graphs/LUHCFUVCJT/LUHCFUVCJT.yaml"
+[component_container_mt-1] [INFO] [1769589274.960957668] [resize_left_rt_detr_node]: [NitrosNode] Loading application
+[component_container_mt-1] [33m2026-01-28 16:34:34.962 WARN  external/com_nvidia_gxf/gxf/std/yaml_file_loader.cpp@1076: Using unregistered parameter 'min_sum' in component ''.[0m
+[component_container_mt-1] [33m2026-01-28 16:34:34.962 WARN  external/com_nvidia_gxf/gxf/std/yaml_file_loader.cpp@1076: Using unregistered parameter 'min_sum' in component ''.[0m
+[component_container_mt-1] [INFO] [1769589274.962694192] [resize_left_rt_detr_node]: [ResizeNode] postLoadGraphCallback().
+[component_container_mt-1] [INFO] [1769589274.962728977] [resize_left_rt_detr_node]: [NitrosNode] Initializing and running GXF graph
+[component_container_mt-1] [INFO] [1769589274.973653296] [resize_left_rt_detr_node]: [NitrosNode] Node was started
+[component_container_mt-1] [INFO] [1769589274.982340570] [interleaved_to_planar_node]: [NitrosNode] Starting post negotiation setup
+[component_container_mt-1] [INFO] [1769589274.982355514] [interleaved_to_planar_node]: [NitrosNode] Getting data format negotiation results
+[component_container_mt-1] [INFO] [1769589274.982358621] [interleaved_to_planar_node]: [NitrosPublisher] Use the negotiated data format: "nitros_tensor_list_nchw_rgb_f32"
+[component_container_mt-1] [INFO] [1769589274.982361959] [interleaved_to_planar_node]: [NitrosSubscriber] Negotiation ended with no results
+[component_container_mt-1] [INFO] [1769589274.982363948] [interleaved_to_planar_node]: [NitrosSubscriber] Use the compatible subscriber: topic_name="/normalized_tensor", data_format="nitros_tensor_list_nhwc_rgb_f32"
+[component_container_mt-1] [INFO] [1769589274.982434889] [interleaved_to_planar_node]: [NitrosNode] Exporting the final graph based on the negotiation results
+[component_container_mt-1] [INFO] [1769589274.984131580] [interleaved_to_planar_node]: [NitrosNode] Wrote the final top level YAML graph to "/tmp/isaac_ros_nitros/graphs/BGNPNJLYUM/BGNPNJLYUM.yaml"
+[component_container_mt-1] [INFO] [1769589274.984143359] [interleaved_to_planar_node]: [NitrosNode] Loading application
+[component_container_mt-1] [INFO] [1769589274.984926903] [interleaved_to_planar_node]: In InterleavedToPlanarNode postLoadGraphCallback().
+[component_container_mt-1] [INFO] [1769589274.984947691] [interleaved_to_planar_node]: [NitrosNode] Initializing and running GXF graph
+[component_container_mt-1] [INFO] [1769589274.985539132] [interleaved_to_planar_node]: [NitrosNode] Node was started
+[component_container_mt-1] [INFO] [1769589275.000893858] [camera]: RealSense Node Is Up!
+[component_container_mt-1] [INFO] [1769589275.018817843] [reshape_node]: [NitrosNode] Starting post negotiation setup
+[component_container_mt-1] [INFO] [1769589275.018847773] [reshape_node]: [NitrosNode] Getting data format negotiation results
+[component_container_mt-1] [INFO] [1769589275.018851429] [reshape_node]: [NitrosPublisher] Use the negotiated data format: "nitros_tensor_list_nchw_rgb_f32"
+[component_container_mt-1] [INFO] [1769589275.018854916] [reshape_node]: [NitrosSubscriber] Use the negotiated data format: "nitros_tensor_list_nchw_rgb_f32"
+[component_container_mt-1] [INFO] [1769589275.018931634] [reshape_node]: [NitrosNode] Exporting the final graph based on the negotiation results
+[component_container_mt-1] [INFO] [1769589275.020591322] [reshape_node]: [NitrosNode] Wrote the final top level YAML graph to "/tmp/isaac_ros_nitros/graphs/RPYKEODHRL/RPYKEODHRL.yaml"
+[component_container_mt-1] [INFO] [1769589275.020605993] [reshape_node]: [NitrosNode] Loading application
+[component_container_mt-1] [INFO] [1769589275.021437289] [reshape_node]: In ReshapeNode postLoadGraphCallback().
+[component_container_mt-1] [INFO] [1769589275.021466250] [reshape_node]: [NitrosNode] Initializing and running GXF graph
+[component_container_mt-1] [INFO] [1769589275.022108854] [reshape_node]: [NitrosNode] Node was started
+[component_container_mt-1] [INFO] [1769589275.036257073] [tensor_rt]: [NitrosNode] Starting post negotiation setup
+[component_container_mt-1] [INFO] [1769589275.036295916] [tensor_rt]: [NitrosNode] Getting data format negotiation results
+[component_container_mt-1] [INFO] [1769589275.036300633] [tensor_rt]: [NitrosPublisher] Negotiation ended with no results
+[component_container_mt-1] [INFO] [1769589275.036303799] [tensor_rt]: [NitrosPublisher] Use only the compatible publisher: topic_name="/tensor_sub", data_format="nitros_tensor_list_nhwc_rgb_f32"
+[component_container_mt-1] [INFO] [1769589275.036307987] [tensor_rt]: [NitrosSubscriber] Use the negotiated data format: "nitros_tensor_list_nchw_rgb_f32"
+[component_container_mt-1] [INFO] [1769589275.036395574] [tensor_rt]: [NitrosNode] Exporting the final graph based on the negotiation results
+[component_container_mt-1] [INFO] [1769589275.038303057] [tensor_rt]: [NitrosNode] Wrote the final top level YAML graph to "/tmp/isaac_ros_nitros/graphs/YBECRYADUA/YBECRYADUA.yaml"
+[component_container_mt-1] [INFO] [1769589275.038314848] [tensor_rt]: [NitrosNode] Loading application
+[component_container_mt-1] [33m2026-01-28 16:34:35.038 WARN  external/com_nvidia_gxf/gxf/std/yaml_file_loader.cpp@1076: Using unregistered parameter 'dev_id' in component 'stream'.[0m
+[component_container_mt-1] [INFO] [1769589275.039018103] [tensor_rt]: In TensorRTNode postLoadGraphCallback().
+[component_container_mt-1]  28/01 16:34:35,122 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:35,132 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:35,142 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1] [INFO] [1769589275.143919218] [tensor_rt]: Read tensor shape information from TRT Model Engine: /workspaces/isaac_ros-dev//isaac_ros_assets/models/synthetica_detr/sdetr_grasp.plan
+[component_container_mt-1] [INFO] [1769589275.143982490] [tensor_rt]: Tensors 4800 bytes, num outputs 40 x tensors per output 3 = 120 blocks
+[component_container_mt-1] [INFO] [1769589275.144022083] [tensor_rt]: [NitrosNode] Initializing and running GXF graph
+[component_container_mt-1] [INFO] [1769589275.144426742] [tensor_rt]: [NitrosNode] Node was started
+[component_container_mt-1]  28/01 16:34:35,152 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1] [INFO] [1769589275.154152123] [resize_mask_node]: [NitrosNode] Starting post negotiation setup
+[component_container_mt-1] [INFO] [1769589275.154194267] [resize_mask_node]: [NitrosNode] Getting data format negotiation results
+[component_container_mt-1] [INFO] [1769589275.154201712] [resize_mask_node]: [NitrosPublisher] Use the negotiated data format: "nitros_image_mono8"
+[component_container_mt-1] [INFO] [1769589275.154208297] [resize_mask_node]: [NitrosPublisher] Negotiation ended with no results
+[component_container_mt-1] [INFO] [1769589275.154214059] [resize_mask_node]: [NitrosPublisher] Use only the compatible publisher: topic_name="/camera_info_segmentation", data_format="nitros_camera_info"
+[component_container_mt-1] [INFO] [1769589275.154220300] [resize_mask_node]: [NitrosSubscriber] Negotiation ended with no results
+[component_container_mt-1] [INFO] [1769589275.154226029] [resize_mask_node]: [NitrosSubscriber] Use the compatible subscriber: topic_name="/rt_detr_segmentation", data_format="nitros_image_bgr8"
+[component_container_mt-1] [INFO] [1769589275.154231876] [resize_mask_node]: [NitrosSubscriber] Negotiation ended with no results
+[component_container_mt-1] [INFO] [1769589275.154236573] [resize_mask_node]: [NitrosSubscriber] Use the compatible subscriber: topic_name="/camera_info_resized", data_format="nitros_camera_info"
+[component_container_mt-1] [INFO] [1769589275.154250669] [resize_mask_node]: [NitrosPublisherSubscriberGroup] Adjusted the compatible format of the component "sync/camera_message_rx" (type="nvidia::gxf::DoubleBufferReceiver") from "nitros_image_bgr8" to "nitros_image_mono8"
+[component_container_mt-1] [INFO] [1769589275.154361347] [resize_mask_node]: [NitrosNode] Exporting the final graph based on the negotiation results
+[component_container_mt-1] [INFO] [1769589275.159473562] [resize_mask_node]: [NitrosNode] Wrote the final top level YAML graph to "/tmp/isaac_ros_nitros/graphs/PENPGWEVYR/PENPGWEVYR.yaml"
+[component_container_mt-1] [INFO] [1769589275.159491856] [resize_mask_node]: [NitrosNode] Loading application
+[component_container_mt-1] [33m2026-01-28 16:34:35.160 WARN  external/com_nvidia_gxf/gxf/std/yaml_file_loader.cpp@1076: Using unregistered parameter 'min_sum' in component ''.[0m
+[component_container_mt-1] [33m2026-01-28 16:34:35.160 WARN  external/com_nvidia_gxf/gxf/std/yaml_file_loader.cpp@1076: Using unregistered parameter 'min_sum' in component ''.[0m
+[component_container_mt-1] [INFO] [1769589275.160889934] [resize_mask_node]: [ResizeNode] postLoadGraphCallback().
+[component_container_mt-1] [INFO] [1769589275.160917547] [resize_mask_node]: [NitrosNode] Initializing and running GXF graph
+[component_container_mt-1] [INFO] [1769589275.161962559] [resize_mask_node]: [NitrosNode] Node was started
+[component_container_mt-1]  28/01 16:34:35,163 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:35,173 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:35,183 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:35,193 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:35,203 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:35,214 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:35,224 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:35,234 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:35,244 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1] [INFO] [1769589275.247488282] [resize_left_viz]: [NitrosNode] Starting post negotiation setup
+[component_container_mt-1] [INFO] [1769589275.247519371] [resize_left_viz]: [NitrosNode] Getting data format negotiation results
+[component_container_mt-1] [INFO] [1769589275.247522467] [resize_left_viz]: [NitrosPublisher] Negotiation ended with no results
+[component_container_mt-1] [INFO] [1769589275.247537676] [resize_left_viz]: [NitrosPublisher] Use only the compatible publisher: topic_name="/rgb/image_rect_color_viz", data_format="nitros_image_rgb8"
+[component_container_mt-1] [INFO] [1769589275.247540573] [resize_left_viz]: [NitrosPublisher] Negotiation ended with no results
+[component_container_mt-1] [INFO] [1769589275.247542375] [resize_left_viz]: [NitrosPublisher] Use only the compatible publisher: topic_name="/rgb/camera_info_viz", data_format="nitros_camera_info"
+[component_container_mt-1] [INFO] [1769589275.247545229] [resize_left_viz]: [NitrosSubscriber] Use the negotiated data format: "nitros_image_rgb8"
+[component_container_mt-1] [INFO] [1769589275.247547703] [resize_left_viz]: [NitrosSubscriber] Negotiation ended with no results
+[component_container_mt-1] [INFO] [1769589275.247549369] [resize_left_viz]: [NitrosSubscriber] Use the compatible subscriber: topic_name="/rgb/camera_info", data_format="nitros_camera_info"
+[component_container_mt-1] [INFO] [1769589275.247615918] [resize_left_viz]: [NitrosNode] Exporting the final graph based on the negotiation results
+[component_container_mt-1] [INFO] [1769589275.251666621] [resize_left_viz]: [NitrosNode] Wrote the final top level YAML graph to "/tmp/isaac_ros_nitros/graphs/QHEJPXYXXX/QHEJPXYXXX.yaml"
+[component_container_mt-1] [INFO] [1769589275.251680300] [resize_left_viz]: [NitrosNode] Loading application
+[component_container_mt-1] [33m2026-01-28 16:34:35.252 WARN  external/com_nvidia_gxf/gxf/std/yaml_file_loader.cpp@1076: Using unregistered parameter 'min_sum' in component ''.[0m
+[component_container_mt-1] [33m2026-01-28 16:34:35.252 WARN  external/com_nvidia_gxf/gxf/std/yaml_file_loader.cpp@1076: Using unregistered parameter 'min_sum' in component ''.[0m
+[component_container_mt-1] [INFO] [1769589275.253053408] [resize_left_viz]: [ResizeNode] postLoadGraphCallback().
+[component_container_mt-1] [INFO] [1769589275.253076819] [resize_left_viz]: [NitrosNode] Initializing and running GXF graph
+[component_container_mt-1] [INFO] [1769589275.254042962] [resize_left_viz]: [NitrosNode] Node was started
+[component_container_mt-1]  28/01 16:34:35,254 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:35,265 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:35,275 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:35,285 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:35,295 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:35,305 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:35,316 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:35,326 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:35,436 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:35,446 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1] [INFO] [1769589275.559984557] [foundationpose_node]: [NitrosNode] Starting post negotiation setup
+[component_container_mt-1] [INFO] [1769589275.560018921] [foundationpose_node]: [NitrosNode] Getting data format negotiation results
+[component_container_mt-1] [INFO] [1769589275.560023425] [foundationpose_node]: [NitrosPublisher] Negotiation ended with no results
+[component_container_mt-1] [INFO] [1769589275.560025763] [foundationpose_node]: [NitrosPublisher] Use only the compatible publisher: topic_name="/output", data_format="nitros_detection3_d_array"
+[component_container_mt-1] [INFO] [1769589275.560028521] [foundationpose_node]: [NitrosPublisher] Negotiation ended with no results
+[component_container_mt-1] [INFO] [1769589275.560030093] [foundationpose_node]: [NitrosPublisher] Use only the compatible publisher: topic_name="/pose_estimation/pose_matrix_output", data_format="nitros_tensor_list_nchw"
+[component_container_mt-1] [INFO] [1769589275.560034130] [foundationpose_node]: [NitrosSubscriber] Use the negotiated data format: "nitros_image_rgb8"
+[component_container_mt-1] [INFO] [1769589275.560037477] [foundationpose_node]: [NitrosSubscriber] Negotiation ended with no results
+[component_container_mt-1] [INFO] [1769589275.560039356] [foundationpose_node]: [NitrosSubscriber] Use the compatible subscriber: topic_name="/rgb/camera_info", data_format="nitros_camera_info"
+[component_container_mt-1] [INFO] [1769589275.560041799] [foundationpose_node]: [NitrosSubscriber] Use the negotiated data format: "nitros_image_mono8"
+[component_container_mt-1] [INFO] [1769589275.560043575] [foundationpose_node]: [NitrosSubscriber] Negotiation ended with no results
+[component_container_mt-1] [INFO] [1769589275.560045148] [foundationpose_node]: [NitrosSubscriber] Use the compatible subscriber: topic_name="/depth_image", data_format="nitros_image_32FC1"
+[component_container_mt-1] [INFO] [1769589275.560120986] [foundationpose_node]: [NitrosNode] Exporting the final graph based on the negotiation results
+[component_container_mt-1]  28/01 16:34:35,958 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:35,968 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:35,978 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:35,989 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:35,999 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,009 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,019 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,030 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,040 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,050 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,161 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,171 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,181 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,191 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,201 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,212 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,222 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,232 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,242 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,252 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,363 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,373 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,383 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,394 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,404 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,414 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,424 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,434 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,445 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,455 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:34:36,551 ERROR [128634685744832] (ds-options.cpp:93) Asic Temperature value is not valid!
+[component_container_mt-1] [INFO] [1769589277.431311033] [foundationpose_node]: [NitrosNode] Wrote the final top level YAML graph to "/tmp/isaac_ros_nitros/graphs/WUWMVKMKOA/WUWMVKMKOA.yaml"
+[component_container_mt-1] [INFO] [1769589277.431349777] [foundationpose_node]: [NitrosNode] Loading application
+[component_container_mt-1] [33m2026-01-28 16:34:37.435 WARN  external/com_nvidia_gxf/gxf/std/yaml_file_loader.cpp@1076: Using unregistered parameter 'receiver' in component ''.[0m
+[component_container_mt-1] [33m2026-01-28 16:34:37.435 WARN  external/com_nvidia_gxf/gxf/std/yaml_file_loader.cpp@1076: Using unregistered parameter 'dummy_rx' in component ''.[0m
+[component_container_mt-1] [33m2026-01-28 16:34:37.435 WARN  external/com_nvidia_gxf/gxf/std/yaml_file_loader.cpp@1076: Using unregistered parameter 'dummy_rx' in component ''.[0m
+[component_container_mt-1] [33m2026-01-28 16:34:37.436 WARN  external/com_nvidia_gxf/gxf/std/yaml_file_loader.cpp@1076: Using unregistered parameter 'dev_id' in component 'stream'.[0m
+[component_container_mt-1] [INFO] [1769589277.436418119] [foundationpose_node]: [NitrosNode] Initializing and running GXF graph
+[component_container_mt-1] [33m2026-01-28 16:34:37.441 WARN  ./gxf/foundationpose/mesh_storage.cpp@289: [MeshStorage] No texture path found for mesh[0m
+[component_container_mt-1] [33m2026-01-28 16:34:37.441 WARN  ./gxf/foundationpose/mesh_storage.cpp@92: [MeshStorage]  could not be found, assign texture map with pure color[0m
+[component_container_mt-1] [33m2026-01-28 16:34:37.441 WARN  external/com_nvidia_gxf/gxf/std/scheduling_terms.cpp@333: 'min_size' parameter in MultiMessageAvailableSchedulingTerm is deprecated. Use 'min_sum' with SumOfAll sampling mode instead[0m
+[component_container_mt-1] [33m2026-01-28 16:34:37.442 WARN  external/com_nvidia_gxf/gxf/std/scheduling_terms.cpp@333: 'min_size' parameter in MultiMessageAvailableSchedulingTerm is deprecated. Use 'min_sum' with SumOfAll sampling mode instead[0m
+[component_container_mt-1] [33m2026-01-28 16:34:37.442 WARN  external/com_nvidia_gxf/gxf/std/scheduling_terms.cpp@333: 'min_size' parameter in MultiMessageAvailableSchedulingTerm is deprecated. Use 'min_sum' with SumOfAll sampling mode instead[0m
+[component_container_mt-1] [33m2026-01-28 16:34:37.442 WARN  external/com_nvidia_gxf/gxf/std/scheduling_terms.cpp@333: 'min_size' parameter in MultiMessageAvailableSchedulingTerm is deprecated. Use 'min_sum' with SumOfAll sampling mode instead[0m
+[component_container_mt-1] [33m2026-01-28 16:34:37.442 WARN  external/com_nvidia_gxf/gxf/std/scheduling_terms.cpp@333: 'min_size' parameter in MultiMessageAvailableSchedulingTerm is deprecated. Use 'min_sum' with SumOfAll sampling mode instead[0m
+[component_container_mt-1] [33m2026-01-28 16:34:37.442 WARN  external/com_nvidia_gxf/gxf/std/scheduling_terms.cpp@333: 'min_size' parameter in MultiMessageAvailableSchedulingTerm is deprecated. Use 'min_sum' with SumOfAll sampling mode instead[0m
+[component_container_mt-1] [INFO] [1769589277.442843784] [foundationpose_node]: [NitrosNode] Node was started
+[component_container_mt-1] [33m2026-01-28 16:34:37.480 WARN  ./gxf/extensions/tensor_rt/tensor_rt_inference.cpp@160: TRT WARNING: WARNING The logger passed into createInferRuntime differs from one already registered for an existing builder, runtime, or refitter. So the current new logger is ignored, and TensorRT will use the existing one which is returned by nvinfer1::getLogger() instead.[0m
+[component_container_mt-1] [33m2026-01-28 16:34:37.483 WARN  ./gxf/extensions/tensor_rt/tensor_rt_inference.cpp@160: TRT WARNING: WARNING The logger passed into createInferRuntime differs from one already registered for an existing builder, runtime, or refitter. So the current new logger is ignored, and TensorRT will use the existing one which is returned by nvinfer1::getLogger() instead.[0m
+[component_container_mt-1]  28/01 16:34:42,768 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Success, number: 0
+[component_container_mt-1]  28/01 16:35:24,789 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Resource temporarily unavailable, number: 11
+[component_container_mt-1]  28/01 16:35:24,800 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Resource temporarily unavailable, number: 11
+[component_container_mt-1]  28/01 16:35:24,810 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Resource temporarily unavailable, number: 11
+[component_container_mt-1]  28/01 16:35:24,820 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Resource temporarily unavailable, number: 11
+[component_container_mt-1]  28/01 16:35:24,830 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Resource temporarily unavailable, number: 11
+[component_container_mt-1]  28/01 16:35:24,840 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Resource temporarily unavailable, number: 11
+[component_container_mt-1]  28/01 16:35:24,851 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Resource temporarily unavailable, number: 11
+[component_container_mt-1]  28/01 16:35:24,861 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Resource temporarily unavailable, number: 11
+[component_container_mt-1]  28/01 16:35:24,871 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Resource temporarily unavailable, number: 11
+[component_container_mt-1]  28/01 16:35:24,881 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Resource temporarily unavailable, number: 11
+[component_container_mt-1]  28/01 16:35:24,891 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Resource temporarily unavailable, number: 11
+[component_container_mt-1]  28/01 16:35:28,556 ERROR [128634685744832] (ds-options.cpp:93) Asic Temperature value is not valid!
+[component_container_mt-1]  28/01 16:35:30,556 ERROR [128634685744832] (ds-options.cpp:93) Asic Temperature value is not valid!
+[component_container_mt-1]  28/01 16:36:00,910 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Resource temporarily unavailable, number: 11
+[component_container_mt-1]  28/01 16:36:07,922 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Resource temporarily unavailable, number: 11
+[component_container_mt-1]  28/01 16:36:14,934 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Resource temporarily unavailable, number: 11
+[component_container_mt-1]  28/01 16:36:21,946 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Resource temporarily unavailable, number: 11
+[component_container_mt-1]  28/01 16:36:52,963 WARNING [128636775724736] (messenger-libusb.cpp:42) control_transfer returned error, index: 768, error: Resource temporarily unavailable, number: 11
+[WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
+[component_container_mt-1] [INFO] [1769589421.631614828] [rclcpp]: signal_handler(signum=2)
+[component_container_mt-1] [INFO] [1769589421.639888930] [foundationpose_node]: [NitrosNode] Terminating the running application
+[component_container_mt-1] [INFO] [1769589421.639901047] [foundationpose_node]: [NitrosContext] Interrupting GXF...
+[component_container_mt-1] [INFO] [1769589421.679866970] [foundationpose_node]: [NitrosContext] Waiting on GXF...
+[component_container_mt-1] [INFO] [1769589421.679885480] [foundationpose_node]: [NitrosContext] Deinitializing...
+[component_container_mt-1] [INFO] [1769589421.690550509] [foundationpose_node]: [NitrosContext] Destroying context
+[component_container_mt-1] [INFO] [1769589421.697732237] [foundationpose_node]: [NitrosNode] Application termination done
+[component_container_mt-1] [INFO] [1769589421.708195712] [resize_left_viz]: [NitrosNode] Terminating the running application
+[component_container_mt-1] [INFO] [1769589421.708201321] [resize_left_viz]: [NitrosContext] Interrupting GXF...
+[component_container_mt-1] [INFO] [1769589421.708472614] [resize_left_viz]: [NitrosContext] Waiting on GXF...
+[component_container_mt-1] [INFO] [1769589421.708474241] [resize_left_viz]: [NitrosContext] Deinitializing...
+[component_container_mt-1] [INFO] [1769589421.708802084] [resize_left_viz]: [NitrosContext] Destroying context
+[component_container_mt-1] [INFO] [1769589421.708892044] [resize_left_viz]: [NitrosNode] Application termination done
+[component_container_mt-1] [INFO] [1769589421.717156026] [resize_mask_node]: [NitrosNode] Terminating the running application
+[component_container_mt-1] [INFO] [1769589421.717160396] [resize_mask_node]: [NitrosContext] Interrupting GXF...
+[component_container_mt-1] [INFO] [1769589421.717306464] [resize_mask_node]: [NitrosContext] Waiting on GXF...
+[component_container_mt-1] [INFO] [1769589421.717307913] [resize_mask_node]: [NitrosContext] Deinitializing...
+[component_container_mt-1] [INFO] [1769589421.717807981] [resize_mask_node]: [NitrosContext] Destroying context
+[component_container_mt-1] [INFO] [1769589421.717883904] [resize_mask_node]: [NitrosNode] Application termination done
+[component_container_mt-1] [INFO] [1769589421.740390202] [tensor_rt]: [NitrosNode] Terminating the running application
+[component_container_mt-1] [INFO] [1769589421.740398245] [tensor_rt]: [NitrosContext] Interrupting GXF...
+[component_container_mt-1] [INFO] [1769589421.746121944] [tensor_rt]: [NitrosContext] Waiting on GXF...
+[component_container_mt-1] [INFO] [1769589421.746124916] [tensor_rt]: [NitrosContext] Deinitializing...
+[component_container_mt-1] [INFO] [1769589421.747181214] [tensor_rt]: [NitrosContext] Destroying context
+[component_container_mt-1] [INFO] [1769589421.747249543] [tensor_rt]: [NitrosNode] Application termination done
+[component_container_mt-1] [INFO] [1769589421.755456762] [reshape_node]: [NitrosNode] Terminating the running application
+[component_container_mt-1] [INFO] [1769589421.755462756] [reshape_node]: [NitrosContext] Interrupting GXF...
+[component_container_mt-1] [INFO] [1769589421.755796059] [reshape_node]: [NitrosContext] Waiting on GXF...
+[component_container_mt-1] [INFO] [1769589421.755797562] [reshape_node]: [NitrosContext] Deinitializing...
+[component_container_mt-1] [INFO] [1769589421.756046107] [reshape_node]: [NitrosContext] Destroying context
+[component_container_mt-1] [INFO] [1769589421.756104461] [reshape_node]: [NitrosNode] Application termination done
+[component_container_mt-1] [INFO] [1769589421.759902492] [interleaved_to_planar_node]: [NitrosNode] Terminating the running application
+[component_container_mt-1] [INFO] [1769589421.759906687] [interleaved_to_planar_node]: [NitrosContext] Interrupting GXF...
+[component_container_mt-1] [INFO] [1769589421.760515433] [interleaved_to_planar_node]: [NitrosContext] Waiting on GXF...
+[component_container_mt-1] [INFO] [1769589421.760516652] [interleaved_to_planar_node]: [NitrosContext] Deinitializing...
+[component_container_mt-1] [INFO] [1769589421.760725166] [interleaved_to_planar_node]: [NitrosContext] Destroying context
+[component_container_mt-1] [INFO] [1769589421.760795451] [interleaved_to_planar_node]: [NitrosNode] Application termination done
+[component_container_mt-1] [INFO] [1769589421.770184616] [resize_left_rt_detr_node]: [NitrosNode] Terminating the running application
+[component_container_mt-1] [INFO] [1769589421.770190577] [resize_left_rt_detr_node]: [NitrosContext] Interrupting GXF...
+[component_container_mt-1] [INFO] [1769589421.770356939] [resize_left_rt_detr_node]: [NitrosContext] Waiting on GXF...
+[component_container_mt-1] [INFO] [1769589421.770358289] [resize_left_rt_detr_node]: [NitrosContext] Deinitializing...
+[component_container_mt-1] [INFO] [1769589421.770687428] [resize_left_rt_detr_node]: [NitrosContext] Destroying context
+[component_container_mt-1] [INFO] [1769589421.770777130] [resize_left_rt_detr_node]: [NitrosNode] Application termination done
+[component_container_mt-1] [INFO] [1769589421.787078496] [camera]: Stop Sensor: Depth Module
+[component_container_mt-1] [INFO] [1769589421.787087743] [camera]: Close Sensor. 
+[component_container_mt-1] [33m2026-01-28 16:37:01.684 WARN  external/com_nvidia_gxf/gxf/std/double_buffer_receiver.cpp@40: Unprocessed num of message 11 in queue: WUWMVKMKOA_sync:depth_receiver[0m
+[component_container_mt-1] [33m2026-01-28 16:37:01.684 WARN  external/com_nvidia_gxf/gxf/std/double_buffer_receiver.cpp@40: Unprocessed num of message 11 in queue: WUWMVKMKOA_sync:camera_model_receiver[0m
+[component_container_mt-1] [33m2026-01-28 16:37:01.684 WARN  external/com_nvidia_gxf/gxf/std/double_buffer_receiver.cpp@40: Unprocessed num of message 11 in queue: WUWMVKMKOA_sync:rgb_image_receiver[0m
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |                                           Job Statistics Report (regular)                                                                                        |
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] | Name                                               |   Count | Time (Median - 90% - Max) [ms] | Load (%) | Exec(ms) | Variation (Median - 90% - Max) [ns]        |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |                               WUWMVKMKOA_pose_sink |       9 |     0.02 |     0.02 |     0.03 |    0.0 % |      0.2 |         7286 |        10900 |        35647 |
+[component_container_mt-1] |                             WUWMVKMKOA_broadcaster |       9 |     0.03 |     0.05 |     0.05 |    0.0 % |      0.3 |        12752 |        28475 |        44731 |
+[component_container_mt-1] |                         WUWMVKMKOA_score_inference |       9 |     0.21 |     0.24 |    27.91 |    0.2 % |     29.6 |        14932 |        46492 |        52644 |
+[component_container_mt-1] |                            WUWMVKMKOA_render_score |      54 |    26.44 |    28.01 |    29.52 |    6.4 % |   1040.7 |         5062 |        21492 |     29137113 |
+[component_container_mt-1] |                               WUWMVKMKOA_transform |      54 |     0.18 |     0.40 |     0.65 |    0.1 % |     11.5 |         5481 |      1742814 |      2562185 |
+[component_container_mt-1] |                WUWMVKMKOA_depth_message_compositor |       9 |     0.04 |     0.05 |     0.07 |    0.0 % |      0.3 |         3898 |         5162 |        14757 |
+[component_container_mt-1] |                         WUWMVKMKOA_rgb_broadcaster |      54 |     0.01 |     0.01 |     0.04 |    0.0 % |      0.5 |        67051 |       121122 |       141537 |
+[component_container_mt-1] |                       WUWMVKMKOA_depth_broadcaster |       9 |     0.01 |     0.02 |     0.04 |    0.0 % |      0.1 |         3860 |        11902 |        13312 |
+[component_container_mt-1] |                WUWMVKMKOA_camera_model_broadcaster |      54 |     0.01 |     0.01 |     0.05 |    0.0 % |      0.4 |        81115 |       120011 |       162098 |
+[component_container_mt-1] |                        WUWMVKMKOA_pose_matrix_sink |       9 |     0.03 |     0.03 |     0.04 |    0.0 % |      0.2 |        10153 |        14619 |        44978 |
+[component_container_mt-1] |                     WUWMVKMKOA_depth_to_pointcloud |       9 |     0.12 |     0.22 |     0.25 |    0.0 % |      1.2 |         3636 |        15833 |        16066 |
+[component_container_mt-1] |                         WUWMVKMKOA_xyz_broadcaster |      54 |     0.01 |     0.01 |     0.02 |    0.0 % |      0.4 |        64692 |       114398 |       142390 |
+[component_container_mt-1] |                                WUWMVKMKOA_sampling |       9 |     2.67 |     3.23 |     3.71 |    0.1 % |     23.9 |         6227 |        12287 |        13100 |
+[component_container_mt-1] |                                  WUWMVKMKOA_render |      54 |     5.84 |    26.91 |    28.18 |    4.6 % |    739.6 |         7302 |     24248184 |     26152486 |
+[component_container_mt-1] |                       WUWMVKMKOA_score_stream_sync |       9 |   124.59 |   125.83 |   128.28 |    6.8 % |   1101.2 |         5488 |        14335 |        56512 |
+[component_container_mt-1] |                        WUWMVKMKOA_pose_broadcaster |      54 |     0.01 |     0.01 |     0.06 |    0.0 % |      0.5 |        66890 |       132010 |       149089 |
+[component_container_mt-1] |                                    WUWMVKMKOA_sync | 11330241 |     0.01 |     0.01 |     0.59 |   48.4 % |   69722.7 |   35378006593 |   52737821864 |   70001506502 |
+[component_container_mt-1] |                        WUWMVKMKOA_refine_inference |      54 |     0.23 |    21.30 |    25.90 |    1.7 % |    270.1 |         5511 |         7909 |        55845 |
+[component_container_mt-1] |                                 WUWMVKMKOA_decoder |       9 |     0.65 |     0.91 |     2.54 |    0.0 % |      6.8 |        14833 |        29355 |        57556 |
+[component_container_mt-1] |                      WUWMVKMKOA_refine_stream_sync |      54 |    23.27 |    24.94 |    26.42 |    5.4 % |    874.3 |         4731 |     25608766 |     27285501 |
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |                                           Entity Statistics Report (regular)                                                                                     |
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] | Entity Name             | Entity State             |   Count | Time (Median - 90% - Max) [ms]                                                                    |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |    WUWMVKMKOA_pose_sink  |              StopPending |       1 |  0.00194 |  0.00194 |  0.00194                                                                   |
+[component_container_mt-1] |    WUWMVKMKOA_pose_sink  |                     Idle |       9 | 1997.97870 | 4986.80073 | 70727.63177                                                                   |
+[component_container_mt-1] |    WUWMVKMKOA_pose_sink  |                  Ticking |       9 |  0.00897 |  0.01196 |  0.01274                                                                   |
+[component_container_mt-1] |    WUWMVKMKOA_pose_sink  |              TickPending |       9 |  0.00466 |  0.00711 |  0.00943                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |  WUWMVKMKOA_broadcaster  |              StopPending |       1 |  0.00125 |  0.00125 |  0.00125                                                                   |
+[component_container_mt-1] |  WUWMVKMKOA_broadcaster  |                     Idle |       9 | 1997.94837 | 4987.37663 | 70728.62020                                                                   |
+[component_container_mt-1] |  WUWMVKMKOA_broadcaster  |                  Ticking |       9 |  0.01075 |  0.01473 |  0.01909                                                                   |
+[component_container_mt-1] |  WUWMVKMKOA_broadcaster  |              TickPending |       9 |  0.00901 |  0.01714 |  0.02182                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | WUWMVKMKOA_score_infere  |              StopPending |       1 |  4.22089 |  4.22089 |  4.22089                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_score_infere  |                     Idle |       9 | 1997.58747 | 4964.48576 | 70850.33838                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_score_infere  |                  Ticking |       9 |  0.19829 |  0.21459 | 27.89521                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_score_infere  |              TickPending |       9 |  0.00890 |  0.01771 |  0.02452                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | WUWMVKMKOA_render_score  |              StopPending |       1 | 24.23941 | 24.23941 | 24.23941                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_render_score  |                     Idle |      54 |  1.06649 | 26.25582 | 70826.34432                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_render_score  |                  Ticking |      54 | 26.42756 | 27.99846 | 29.50786                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_render_score  |              TickPending |      54 |  0.00558 |  0.00924 |  0.02654                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |    WUWMVKMKOA_transform  |              StopPending |       1 |  0.00170 |  0.00170 |  0.00170                                                                   |
+[component_container_mt-1] |    WUWMVKMKOA_transform  |                     Idle |      54 | 27.39359 | 29.60325 | 70829.50537                                                                   |
+[component_container_mt-1] |    WUWMVKMKOA_transform  |                  Ticking |      54 |  0.17349 |  0.39185 |  0.63397                                                                   |
+[component_container_mt-1] |    WUWMVKMKOA_transform  |              TickPending |      54 |  0.00606 |  0.00956 |  0.02609                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | WUWMVKMKOA_depth_messag  |              StopPending |       1 |  0.00201 |  0.00201 |  0.00201                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_depth_messag  |                     Idle |       9 | 2000.13553 | 5005.37646 | 70991.59643                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_depth_messag  |                  Ticking |       9 |  0.02877 |  0.03695 |  0.03940                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_depth_messag  |              TickPending |       9 |  0.00354 |  0.00487 |  0.02292                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | WUWMVKMKOA_rgb_broadcas  |              StopPending |       1 |  0.00137 |  0.00137 |  0.00137                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_rgb_broadcas  |                     Idle |      54 |  0.00993 |  0.01519 | 70986.37016                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_rgb_broadcas  |                  Ticking |      54 |  0.00335 |  0.00586 |  0.02435                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_rgb_broadcas  |              TickPending |      54 |  0.00138 |  0.00461 |  0.01473                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | WUWMVKMKOA_depth_broadc  |              StopPending |       1 |  0.00146 |  0.00146 |  0.00146                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_depth_broadc  |                     Idle |       9 | 1999.73169 | 5005.70523 | 70990.56495                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_depth_broadc  |                  Ticking |       9 |  0.00478 |  0.00903 |  0.02159                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_depth_broadc  |              TickPending |       9 |  0.00320 |  0.00602 |  0.01669                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | WUWMVKMKOA_camera_model  |              StopPending |       1 |  0.00157 |  0.00157 |  0.00157                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_camera_model  |                     Idle |      54 |  0.01296 |  0.01600 | 70986.38132                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_camera_model  |                  Ticking |      54 |  0.00237 |  0.00554 |  0.00950                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_camera_model  |              TickPending |      54 |  0.00131 |  0.00276 |  0.02750                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | WUWMVKMKOA_pose_matrix_  |              StopPending |       1 |  0.00167 |  0.00167 |  0.00167                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_pose_matrix_  |                     Idle |       9 | 1997.96382 | 4987.83993 | 70728.66243                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_pose_matrix_  |                  Ticking |       9 |  0.01305 |  0.01565 |  0.02445                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_pose_matrix_  |              TickPending |       9 |  0.00860 |  0.01264 |  0.01306                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | WUWMVKMKOA_depth_to_poi  |              StopPending |       1 |  0.00202 |  0.00202 |  0.00202                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_depth_to_poi  |                     Idle |       9 | 2000.03248 | 5004.51869 | 70989.47234                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_depth_to_poi  |                  Ticking |       9 |  0.11825 |  0.19325 |  0.23273                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_depth_to_poi  |              TickPending |       9 |  0.00447 |  0.01641 |  0.01641                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | WUWMVKMKOA_xyz_broadcas  |              StopPending |       1 |  0.00122 |  0.00122 |  0.00122                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_xyz_broadcas  |                     Idle |      54 |  0.01381 |  0.02170 | 70986.39074                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_xyz_broadcas  |                  Ticking |      54 |  0.00287 |  0.00653 |  0.00936                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_xyz_broadcas  |              TickPending |      54 |  0.00146 |  0.00405 |  0.00813                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |     WUWMVKMKOA_sampling  |              StopPending |       1 |  0.11088 |  0.11088 |  0.11088                                                                   |
+[component_container_mt-1] |     WUWMVKMKOA_sampling  |                     Idle |       9 | 1996.57783 | 5001.44010 | 70986.39951                                                                   |
+[component_container_mt-1] |     WUWMVKMKOA_sampling  |                  Ticking |       9 |  2.65625 |  3.20870 |  3.69405                                                                   |
+[component_container_mt-1] |     WUWMVKMKOA_sampling  |              TickPending |       9 |  0.00524 |  0.02440 |  0.02458                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |       WUWMVKMKOA_render  |              StopPending |       1 |  5.86972 |  5.86972 |  5.86972                                                                   |
+[component_container_mt-1] |       WUWMVKMKOA_render  |                     Idle |      54 |  1.10248 | 25.32368 | 70843.85461                                                                   |
+[component_container_mt-1] |       WUWMVKMKOA_render  |                  Ticking |      54 |  5.81677 | 26.89661 | 28.16337                                                                   |
+[component_container_mt-1] |       WUWMVKMKOA_render  |              TickPending |      54 |  0.00824 |  0.02264 |  0.04252                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | WUWMVKMKOA_score_stream  |              StopPending |       1 |  0.00306 |  0.00306 |  0.00306                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_score_stream  |                     Idle |       9 | 1872.59309 | 4864.81477 | 70729.68687                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_score_stream  |                  Ticking |       9 | 124.57092 | 125.81420 | 128.27129                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_score_stream  |              TickPending |       9 |  0.00537 |  0.00833 |  0.00925                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | WUWMVKMKOA_pose_broadca  |              StopPending |       1 |  0.00183 |  0.00183 |  0.00183                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_pose_broadca  |                     Idle |      54 |  0.01003 |  0.02105 | 70986.34783                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_pose_broadca  |                  Ticking |      54 |  0.00360 |  0.00645 |  0.02527                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_pose_broadca  |              TickPending |      54 |  0.00155 |  0.00276 |  0.02579                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |         WUWMVKMKOA_sync  |              StopPending |       1 |  0.00261 |  0.00261 |  0.00261                                                                   |
+[component_container_mt-1] |         WUWMVKMKOA_sync  |                     Idle | 11330241 |  0.00726 |  0.00752 | 687.87955                                                                   |
+[component_container_mt-1] |         WUWMVKMKOA_sync  |                  Ticking | 11330241 |  0.00193 |  0.00207 |  0.45904                                                                   |
+[component_container_mt-1] |         WUWMVKMKOA_sync  |              TickPending | 11330241 |  0.00201 |  0.00208 |  0.23595                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | WUWMVKMKOA_refine_infer  |              StopPending |       1 |  5.27464 |  5.27464 |  5.27464                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_refine_infer  |                     Idle |      54 | 27.35913 | 29.39300 | 70849.33518                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_refine_infer  |                  Ticking |      54 |  0.22094 | 21.27636 | 25.88596                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_refine_infer  |              TickPending |      54 |  0.00493 |  0.00780 |  0.03377                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |      WUWMVKMKOA_decoder  |              StopPending |       1 |  0.00232 |  0.00232 |  0.00232                                                                   |
+[component_container_mt-1] |      WUWMVKMKOA_decoder  |                     Idle |       9 | 1996.88756 | 4986.62635 | 70729.19462                                                                   |
+[component_container_mt-1] |      WUWMVKMKOA_decoder  |                  Ticking |       9 |  0.62472 |  0.88073 |  2.48001                                                                   |
+[component_container_mt-1] |      WUWMVKMKOA_decoder  |              TickPending |       9 |  0.01896 |  0.02360 |  0.03721                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | WUWMVKMKOA_refine_strea  |              StopPending |       1 |  0.00265 |  0.00265 |  0.00265                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_refine_strea  |                     Idle |      54 |  4.18103 | 29.41572 | 70830.31567                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_refine_strea  |                  Ticking |      54 | 23.25927 | 24.91305 | 26.40856                                                                   |
+[component_container_mt-1] | WUWMVKMKOA_refine_strea  |              TickPending |      54 |  0.00507 |  0.00741 |  0.01674                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |                                           Job Statistics Report (regular)                                                                                        |
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] | Name                                               |   Count | Time (Median - 90% - Max) [ms] | Load (%) | Exec(ms) | Variation (Median - 90% - Max) [ns]        |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |                        QHEJPXYXXX_camera_info_sink |     145 |     0.02 |     0.02 |     0.04 |    0.0 % |      2.9 |        21454 |        28775 |       184050 |
+[component_container_mt-1] |                              QHEJPXYXXX_image_sink |     145 |     0.02 |     0.02 |     0.10 |    0.0 % |      3.4 |         5173 |         7245 |        90296 |
+[component_container_mt-1] |                                QHEJPXYXXX_splitter |     145 |     0.06 |     0.07 |     0.14 |    0.0 % |      8.8 |         9644 |        64894 |        96609 |
+[component_container_mt-1] |                              QHEJPXYXXX_streamsync |     145 |     0.05 |     0.05 |     0.21 |    0.0 % |      7.3 |         9873 |        60169 |        74052 |
+[component_container_mt-1] |                            QHEJPXYXXX_imageResizer |     145 |     0.12 |     0.14 |     5.47 |    0.0 % |     22.8 |         9722 |        57798 |        87003 |
+[component_container_mt-1] |                        QHEJPXYXXX_input_compositor |     145 |     0.08 |     0.09 |     0.17 |    0.0 % |     11.9 |        47020 |        51321 |       117377 |
+[component_container_mt-1] |                                    QHEJPXYXXX_sync |     145 |     0.05 |     0.05 |     0.07 |    0.0 % |      6.4 |        20272 |        65831 |        92757 |
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |                                           Entity Statistics Report (regular)                                                                                     |
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] | Entity Name             | Entity State             |   Count | Time (Median - 90% - Max) [ms]                                                                    |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | QHEJPXYXXX_camera_info_  |              StopPending |       1 |  0.00215 |  0.00215 |  0.00215                                                                   |
+[component_container_mt-1] | QHEJPXYXXX_camera_info_  |                     Idle |     145 | 1000.70239 | 1001.04362 | 1015.13628                                                                   |
+[component_container_mt-1] | QHEJPXYXXX_camera_info_  |                  Ticking |     145 |  0.00950 |  0.01245 |  0.02427                                                                   |
+[component_container_mt-1] | QHEJPXYXXX_camera_info_  |              TickPending |     145 |  0.00362 |  0.00534 |  0.01187                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |   QHEJPXYXXX_image_sink  |              StopPending |       1 |  0.00244 |  0.00244 |  0.00244                                                                   |
+[component_container_mt-1] |   QHEJPXYXXX_image_sink  |                     Idle |     145 | 1000.71372 | 1001.03161 | 1015.15028                                                                   |
+[component_container_mt-1] |   QHEJPXYXXX_image_sink  |                  Ticking |     145 |  0.01193 |  0.01380 |  0.02164                                                                   |
+[component_container_mt-1] |   QHEJPXYXXX_image_sink  |              TickPending |     145 |  0.00502 |  0.00618 |  0.01615                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |     QHEJPXYXXX_splitter  |              StopPending |       1 |  0.00243 |  0.00243 |  0.00243                                                                   |
+[component_container_mt-1] |     QHEJPXYXXX_splitter  |                     Idle |     145 | 1000.67394 | 1000.96977 | 1015.17194                                                                   |
+[component_container_mt-1] |     QHEJPXYXXX_splitter  |                  Ticking |     145 |  0.05071 |  0.05615 |  0.12066                                                                   |
+[component_container_mt-1] |     QHEJPXYXXX_splitter  |              TickPending |     145 |  0.00711 |  0.00869 |  0.01929                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |   QHEJPXYXXX_streamsync  |              StopPending |       1 |  0.00292 |  0.00292 |  0.00292                                                                   |
+[component_container_mt-1] |   QHEJPXYXXX_streamsync  |                     Idle |     145 | 1000.65450 | 1000.92052 | 1015.23082                                                                   |
+[component_container_mt-1] |   QHEJPXYXXX_streamsync  |                  Ticking |     145 |  0.03334 |  0.03766 |  0.20058                                                                   |
+[component_container_mt-1] |   QHEJPXYXXX_streamsync  |              TickPending |     145 |  0.00676 |  0.00769 |  0.01240                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | QHEJPXYXXX_imageResizer  |              StopPending |       1 |  0.00303 |  0.00303 |  0.00303                                                                   |
+[component_container_mt-1] | QHEJPXYXXX_imageResizer  |                     Idle |     145 | 1000.57851 | 1000.96855 | 1015.27199                                                                   |
+[component_container_mt-1] | QHEJPXYXXX_imageResizer  |                  Ticking |     145 |  0.10849 |  0.11953 |  5.43876                                                                   |
+[component_container_mt-1] | QHEJPXYXXX_imageResizer  |              TickPending |     145 |  0.00797 |  0.01223 |  0.01737                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | QHEJPXYXXX_input_compos  |              StopPending |       1 |  0.00341 |  0.00341 |  0.00341                                                                   |
+[component_container_mt-1] | QHEJPXYXXX_input_compos  |                     Idle |     145 | 1000.59275 | 1000.99188 | 1015.43313                                                                   |
+[component_container_mt-1] | QHEJPXYXXX_input_compos  |                  Ticking |     145 |  0.05905 |  0.07986 |  0.14701                                                                   |
+[component_container_mt-1] | QHEJPXYXXX_input_compos  |              TickPending |     145 |  0.01115 |  0.01588 |  0.02226                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |         QHEJPXYXXX_sync  |              StopPending |       1 |  0.00599 |  0.00599 |  0.00599                                                                   |
+[component_container_mt-1] |         QHEJPXYXXX_sync  |                     Idle |     145 | 1000.62952 | 1000.99734 | 1015.53389                                                                   |
+[component_container_mt-1] |         QHEJPXYXXX_sync  |                  Ticking |     145 |  0.02377 |  0.02686 |  0.03640                                                                   |
+[component_container_mt-1] |         QHEJPXYXXX_sync  |              TickPending |     145 |  0.01603 |  0.01735 |  0.02199                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |                                           Job Statistics Report (regular)                                                                                        |
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] | Name                                               |   Count | Time (Median - 90% - Max) [ms] | Load (%) | Exec(ms) | Variation (Median - 90% - Max) [ns]        |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |                        PENPGWEVYR_camera_info_sink |       9 |     0.02 |     0.03 |     0.03 |    0.0 % |      0.2 |         7211 |        11309 |        23724 |
+[component_container_mt-1] |                              PENPGWEVYR_image_sink |       9 |     0.02 |     0.03 |     0.03 |    0.0 % |      0.2 |         5848 |         8183 |        12190 |
+[component_container_mt-1] |                                PENPGWEVYR_splitter |       9 |     0.07 |     0.08 |     0.14 |    0.0 % |      0.7 |         8127 |         8336 |         8394 |
+[component_container_mt-1] |                              PENPGWEVYR_streamsync |       9 |     0.02 |     0.03 |     0.03 |    0.0 % |      0.2 |         7866 |         8638 |        11016 |
+[component_container_mt-1] |                            PENPGWEVYR_imageResizer |       9 |     0.03 |     0.04 |     0.05 |    0.0 % |      0.3 |         8531 |        11662 |        12145 |
+[component_container_mt-1] |                        PENPGWEVYR_input_compositor |       9 |     0.07 |     0.11 |     0.15 |    0.0 % |      0.8 |        10371 |        24119 |        31708 |
+[component_container_mt-1] |                                    PENPGWEVYR_sync |       9 |     0.05 |     0.06 |     0.08 |    0.0 % |      0.4 |        13209 |        14595 |        42375 |
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |                                           Entity Statistics Report (regular)                                                                                     |
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] | Entity Name             | Entity State             |   Count | Time (Median - 90% - Max) [ms]                                                                    |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | PENPGWEVYR_camera_info_  |              StopPending |       1 |  0.00245 |  0.00245 |  0.00245                                                                   |
+[component_container_mt-1] | PENPGWEVYR_camera_info_  |                     Idle |       9 | 2000.67420 | 5005.12423 | 71069.70789                                                                   |
+[component_container_mt-1] | PENPGWEVYR_camera_info_  |                  Ticking |       9 |  0.01037 |  0.01212 |  0.01279                                                                   |
+[component_container_mt-1] | PENPGWEVYR_camera_info_  |              TickPending |       9 |  0.00462 |  0.00803 |  0.01385                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |   PENPGWEVYR_image_sink  |              StopPending |       1 |  0.00218 |  0.00218 |  0.00218                                                                   |
+[component_container_mt-1] |   PENPGWEVYR_image_sink  |                     Idle |       9 | 2000.67847 | 5005.12243 | 71069.70373                                                                   |
+[component_container_mt-1] |   PENPGWEVYR_image_sink  |                  Ticking |       9 |  0.01030 |  0.01159 |  0.01637                                                                   |
+[component_container_mt-1] |   PENPGWEVYR_image_sink  |              TickPending |       9 |  0.00460 |  0.00616 |  0.01356                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |     PENPGWEVYR_splitter  |              StopPending |       1 |  0.00240 |  0.00240 |  0.00240                                                                   |
+[component_container_mt-1] |     PENPGWEVYR_splitter  |                     Idle |       9 | 2000.63782 | 5005.06680 | 71069.72906                                                                   |
+[component_container_mt-1] |     PENPGWEVYR_splitter  |                  Ticking |       9 |  0.05919 |  0.06617 |  0.12336                                                                   |
+[component_container_mt-1] |     PENPGWEVYR_splitter  |              TickPending |       9 |  0.00591 |  0.00969 |  0.01476                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |   PENPGWEVYR_streamsync  |              StopPending |       1 |  0.00256 |  0.00256 |  0.00256                                                                   |
+[component_container_mt-1] |   PENPGWEVYR_streamsync  |                     Idle |       9 | 2000.68161 | 5005.17979 | 71069.80832                                                                   |
+[component_container_mt-1] |   PENPGWEVYR_streamsync  |                  Ticking |       9 |  0.01484 |  0.01556 |  0.01720                                                                   |
+[component_container_mt-1] |   PENPGWEVYR_streamsync  |              TickPending |       9 |  0.00496 |  0.00701 |  0.00728                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | PENPGWEVYR_imageResizer  |              StopPending |       1 |  0.00253 |  0.00253 |  0.00253                                                                   |
+[component_container_mt-1] | PENPGWEVYR_imageResizer  |                     Idle |       9 | 2000.67314 | 5005.18533 | 71069.83593                                                                   |
+[component_container_mt-1] | PENPGWEVYR_imageResizer  |                  Ticking |       9 |  0.01657 |  0.01923 |  0.02688                                                                   |
+[component_container_mt-1] | PENPGWEVYR_imageResizer  |              TickPending |       9 |  0.00722 |  0.01134 |  0.01149                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | PENPGWEVYR_input_compos  |              StopPending |       1 |  0.00255 |  0.00255 |  0.00255                                                                   |
+[component_container_mt-1] | PENPGWEVYR_input_compos  |                     Idle |       9 | 2000.64999 | 5005.14250 | 71069.88246                                                                   |
+[component_container_mt-1] | PENPGWEVYR_input_compos  |                  Ticking |       9 |  0.05888 |  0.09244 |  0.13890                                                                   |
+[component_container_mt-1] | PENPGWEVYR_input_compos  |              TickPending |       9 |  0.00742 |  0.01074 |  0.02490                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |         PENPGWEVYR_sync  |              StopPending |       1 |  0.00542 |  0.00542 |  0.00542                                                                   |
+[component_container_mt-1] |         PENPGWEVYR_sync  |                     Idle |       9 | 2000.66561 | 5005.22911 | 71069.95159                                                                   |
+[component_container_mt-1] |         PENPGWEVYR_sync  |                  Ticking |       9 |  0.03041 |  0.04029 |  0.04078                                                                   |
+[component_container_mt-1] |         PENPGWEVYR_sync  |              TickPending |       9 |  0.01151 |  0.01250 |  0.01333                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |                                           Job Statistics Report (regular)                                                                                        |
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] | Name                                               |   Count | Time (Median - 90% - Max) [ms] | Load (%) | Exec(ms) | Variation (Median - 90% - Max) [ns]        |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |                                    YBECRYADUA_sink |     145 |     0.01 |     0.02 |     0.05 |    0.0 % |      1.9 |         4420 |         9948 |        98007 |
+[component_container_mt-1] |                        YBECRYADUA_cuda_stream_sync |     145 |     3.07 |     3.33 |     3.97 |    0.3 % |    423.7 |         5292 |         5929 |        52697 |
+[component_container_mt-1] |                               YBECRYADUA_inference |     145 |     0.83 |     0.86 |    33.90 |    0.1 % |    167.2 |        11203 |        26947 |       127956 |
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |                                           Entity Statistics Report (regular)                                                                                     |
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] | Entity Name             | Entity State             |   Count | Time (Median - 90% - Max) [ms]                                                                    |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |         YBECRYADUA_sink  |              StopPending |       1 |  0.00187 |  0.00187 |  0.00187                                                                   |
+[component_container_mt-1] |         YBECRYADUA_sink  |                     Idle |     145 | 1001.14183 | 1001.86786 | 1046.26463                                                                   |
+[component_container_mt-1] |         YBECRYADUA_sink  |                  Ticking |     145 |  0.00594 |  0.01066 |  0.02761                                                                   |
+[component_container_mt-1] |         YBECRYADUA_sink  |              TickPending |     145 |  0.00281 |  0.00491 |  0.02055                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | YBECRYADUA_cuda_stream_  |              StopPending |       1 |  0.00336 |  0.00336 |  0.00336                                                                   |
+[component_container_mt-1] | YBECRYADUA_cuda_stream_  |                     Idle |     145 | 997.84079 | 998.63494 | 1046.39655                                                                   |
+[component_container_mt-1] | YBECRYADUA_cuda_stream_  |                  Ticking |     145 |  3.06099 |  3.32130 |  3.95906                                                                   |
+[component_container_mt-1] | YBECRYADUA_cuda_stream_  |              TickPending |     145 |  0.00778 |  0.00857 |  0.04447                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |    YBECRYADUA_inference  |              StopPending |       1 |  5.57621 |  5.57621 |  5.57621                                                                   |
+[component_container_mt-1] |    YBECRYADUA_inference  |                     Idle |     145 | 1000.00172 | 1000.68973 | 1044.09688                                                                   |
+[component_container_mt-1] |    YBECRYADUA_inference  |                  Ticking |     145 |  0.80002 |  0.81911 | 33.77107                                                                   |
+[component_container_mt-1] |    YBECRYADUA_inference  |              TickPending |     145 |  0.01141 |  0.02175 |  0.10400                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |                                           Job Statistics Report (regular)                                                                                        |
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] | Name                                               |   Count | Time (Median - 90% - Max) [ms] | Load (%) | Exec(ms) | Variation (Median - 90% - Max) [ns]        |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |                                    RPYKEODHRL_sink |     145 |     0.01 |     0.02 |     0.04 |    0.0 % |      2.7 |         6044 |         8700 |        83694 |
+[component_container_mt-1] |                        RPYKEODHRL_cuda_stream_sync |     145 |     0.04 |     0.06 |     0.18 |    0.0 % |      7.2 |        11449 |        13409 |        51741 |
+[component_container_mt-1] |                                RPYKEODHRL_reshaper |     145 |     0.09 |     0.10 |     0.57 |    0.0 % |     14.9 |        18219 |        47751 |       124412 |
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |                                           Entity Statistics Report (regular)                                                                                     |
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] | Entity Name             | Entity State             |   Count | Time (Median - 90% - Max) [ms]                                                                    |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |         RPYKEODHRL_sink  |              StopPending |       1 |  0.00335 |  0.00335 |  0.00335                                                                   |
+[component_container_mt-1] |         RPYKEODHRL_sink  |                     Idle |     145 | 1000.72009 | 1001.41648 | 1060.53715                                                                   |
+[component_container_mt-1] |         RPYKEODHRL_sink  |                  Ticking |     145 |  0.00798 |  0.01058 |  0.01757                                                                   |
+[component_container_mt-1] |         RPYKEODHRL_sink  |              TickPending |     145 |  0.00435 |  0.00627 |  0.02047                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | RPYKEODHRL_cuda_stream_  |              StopPending |       1 |  0.00246 |  0.00246 |  0.00246                                                                   |
+[component_container_mt-1] | RPYKEODHRL_cuda_stream_  |                     Idle |     145 | 1000.72784 | 1001.38043 | 1060.53839                                                                   |
+[component_container_mt-1] | RPYKEODHRL_cuda_stream_  |                  Ticking |     145 |  0.03499 |  0.04013 |  0.17521                                                                   |
+[component_container_mt-1] | RPYKEODHRL_cuda_stream_  |              TickPending |     145 |  0.00579 |  0.00813 |  0.02376                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |     RPYKEODHRL_reshaper  |              StopPending |       1 |  0.00676 |  0.00676 |  0.00676                                                                   |
+[component_container_mt-1] |     RPYKEODHRL_reshaper  |                     Idle |     145 | 1000.62511 | 1001.32877 | 1060.59496                                                                   |
+[component_container_mt-1] |     RPYKEODHRL_reshaper  |                  Ticking |     145 |  0.07535 |  0.07960 |  0.55232                                                                   |
+[component_container_mt-1] |     RPYKEODHRL_reshaper  |              TickPending |     145 |  0.00930 |  0.01098 |  0.02121                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |                                           Job Statistics Report (regular)                                                                                        |
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] | Name                                               |   Count | Time (Median - 90% - Max) [ms] | Load (%) | Exec(ms) | Variation (Median - 90% - Max) [ns]        |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |                                    BGNPNJLYUM_sink |     145 |     0.02 |     0.02 |     0.04 |    0.0 % |      2.7 |         7415 |        55725 |        89479 |
+[component_container_mt-1] |                        BGNPNJLYUM_cuda_stream_sync |     145 |     0.05 |     0.06 |     0.15 |    0.0 % |      8.1 |        12295 |        49732 |        63910 |
+[component_container_mt-1] |                   BGNPNJLYUM_interleaved_to_planar |     145 |     0.10 |     0.11 |     1.01 |    0.0 % |     15.3 |        18430 |        53246 |        88248 |
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |                                           Entity Statistics Report (regular)                                                                                     |
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] | Entity Name             | Entity State             |   Count | Time (Median - 90% - Max) [ms]                                                                    |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |         BGNPNJLYUM_sink  |              StopPending |       1 |  0.00270 |  0.00270 |  0.00270                                                                   |
+[component_container_mt-1] |         BGNPNJLYUM_sink  |                     Idle |     145 | 1000.65002 | 1001.11658 | 1066.16376                                                                   |
+[component_container_mt-1] |         BGNPNJLYUM_sink  |                  Ticking |     145 |  0.01053 |  0.01153 |  0.03061                                                                   |
+[component_container_mt-1] |         BGNPNJLYUM_sink  |              TickPending |     145 |  0.00460 |  0.00688 |  0.01073                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | BGNPNJLYUM_cuda_stream_  |              StopPending |       1 |  0.00297 |  0.00297 |  0.00297                                                                   |
+[component_container_mt-1] | BGNPNJLYUM_cuda_stream_  |                     Idle |     145 | 1000.59258 | 1001.08416 | 1066.18635                                                                   |
+[component_container_mt-1] | BGNPNJLYUM_cuda_stream_  |                  Ticking |     145 |  0.03912 |  0.04626 |  0.13673                                                                   |
+[component_container_mt-1] | BGNPNJLYUM_cuda_stream_  |              TickPending |     145 |  0.00729 |  0.00860 |  0.03348                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | BGNPNJLYUM_interleaved_  |              StopPending |       1 |  0.00600 |  0.00600 |  0.00600                                                                   |
+[component_container_mt-1] | BGNPNJLYUM_interleaved_  |                     Idle |     145 | 1000.55885 | 1001.08929 | 1066.24273                                                                   |
+[component_container_mt-1] | BGNPNJLYUM_interleaved_  |                  Ticking |     145 |  0.08839 |  0.09093 |  0.97670                                                                   |
+[component_container_mt-1] | BGNPNJLYUM_interleaved_  |              TickPending |     145 |  0.01045 |  0.01173 |  0.13201                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |                                           Job Statistics Report (regular)                                                                                        |
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] | Name                                               |   Count | Time (Median - 90% - Max) [ms] | Load (%) | Exec(ms) | Variation (Median - 90% - Max) [ns]        |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |                        LUHCFUVCJT_camera_info_sink |     145 |     0.02 |     0.03 |     0.04 |    0.0 % |      2.7 |         7552 |        36311 |       164631 |
+[component_container_mt-1] |                              LUHCFUVCJT_image_sink |     145 |     0.02 |     0.03 |     0.04 |    0.0 % |      3.2 |         4721 |         7472 |        68887 |
+[component_container_mt-1] |                                LUHCFUVCJT_splitter |     145 |     0.06 |     0.08 |     0.11 |    0.0 % |      9.3 |         6782 |         8563 |        81744 |
+[component_container_mt-1] |                              LUHCFUVCJT_streamsync |     145 |     0.03 |     0.04 |     0.06 |    0.0 % |      4.4 |         6117 |        61521 |        99867 |
+[component_container_mt-1] |                            LUHCFUVCJT_imageResizer |     145 |     0.03 |     0.04 |     0.09 |    0.0 % |      4.8 |         5965 |        53504 |       106055 |
+[component_container_mt-1] |                        LUHCFUVCJT_input_compositor |     145 |     0.08 |     0.10 |     0.17 |    0.0 % |     11.4 |         9645 |        52505 |        82395 |
+[component_container_mt-1] |                                    LUHCFUVCJT_sync |     145 |     0.04 |     0.05 |     0.10 |    0.0 % |      6.4 |        14284 |        55020 |        92647 |
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] |                                           Entity Statistics Report (regular)                                                                                     |
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] | Entity Name             | Entity State             |   Count | Time (Median - 90% - Max) [ms]                                                                    |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | LUHCFUVCJT_camera_info_  |              StopPending |       1 |  0.00237 |  0.00237 |  0.00237                                                                   |
+[component_container_mt-1] | LUHCFUVCJT_camera_info_  |                     Idle |     145 | 1000.67047 | 1001.11757 | 1077.19168                                                                   |
+[component_container_mt-1] | LUHCFUVCJT_camera_info_  |                  Ticking |     145 |  0.00899 |  0.01255 |  0.02287                                                                   |
+[component_container_mt-1] | LUHCFUVCJT_camera_info_  |              TickPending |     145 |  0.00399 |  0.00579 |  0.02284                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |   LUHCFUVCJT_image_sink  |              StopPending |       1 |  0.00247 |  0.00247 |  0.00247                                                                   |
+[component_container_mt-1] |   LUHCFUVCJT_image_sink  |                     Idle |     145 | 1000.67408 | 1001.12514 | 1077.19020                                                                   |
+[component_container_mt-1] |   LUHCFUVCJT_image_sink  |                  Ticking |     145 |  0.01209 |  0.01671 |  0.02801                                                                   |
+[component_container_mt-1] |   LUHCFUVCJT_image_sink  |              TickPending |     145 |  0.00495 |  0.00645 |  0.01579                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |     LUHCFUVCJT_splitter  |              StopPending |       1 |  0.00264 |  0.00264 |  0.00264                                                                   |
+[component_container_mt-1] |     LUHCFUVCJT_splitter  |                     Idle |     145 | 1000.56579 | 1001.03733 | 1077.20990                                                                   |
+[component_container_mt-1] |     LUHCFUVCJT_splitter  |                  Ticking |     145 |  0.05002 |  0.06295 |  0.09816                                                                   |
+[component_container_mt-1] |     LUHCFUVCJT_splitter  |              TickPending |     145 |  0.00548 |  0.00790 |  0.01116                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |   LUHCFUVCJT_streamsync  |              StopPending |       1 |  0.00251 |  0.00251 |  0.00251                                                                   |
+[component_container_mt-1] |   LUHCFUVCJT_streamsync  |                     Idle |     145 | 1000.57412 | 1001.05477 | 1077.31607                                                                   |
+[component_container_mt-1] |   LUHCFUVCJT_streamsync  |                  Ticking |     145 |  0.02221 |  0.02439 |  0.04869                                                                   |
+[component_container_mt-1] |   LUHCFUVCJT_streamsync  |              TickPending |     145 |  0.00634 |  0.00809 |  0.01025                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | LUHCFUVCJT_imageResizer  |              StopPending |       1 |  0.00365 |  0.00365 |  0.00365                                                                   |
+[component_container_mt-1] | LUHCFUVCJT_imageResizer  |                     Idle |     145 | 1000.57153 | 1000.97741 | 1077.34966                                                                   |
+[component_container_mt-1] [INFO] [1769589423.121346361] [camera]: Close Sensor - Done. 
+[component_container_mt-1] [INFO] [1769589423.121360155] [camera]: Stop Sensor: RGB Camera
+[component_container_mt-1] [INFO] [1769589423.121363212] [camera]: Close Sensor. 
+[component_container_mt-1] [INFO] [1769589423.244569215] [camera]: Close Sensor - Done. 
+[component_container_mt-1] [INFO] [1769589423.244582688] [camera]: Stop Sensor: Motion Module
+[component_container_mt-1] [INFO] [1769589423.263939499] [camera]: Close Sensor. 
+[component_container_mt-1] | LUHCFUVCJT_imageResizer  |                  Ticking |     145 |  0.01769 |  0.02438 |  0.05260                                                                   |
+[component_container_mt-1] | LUHCFUVCJT_imageResizer  |              TickPending |     145 |  0.00781 |  0.01072 |  0.01651                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] | LUHCFUVCJT_input_compos  |              StopPending |       1 |  0.00266 |  0.00266 |  0.00266                                                                   |
+[component_container_mt-1] | LUHCFUVCJT_input_compos  |                     Idle |     145 | 1000.53346 | 1000.94140 | 1077.39901                                                                   |
+[component_container_mt-1] | LUHCFUVCJT_input_compos  |                  Ticking |     145 |  0.06066 |  0.08389 |  0.15516                                                                   |
+[component_container_mt-1] | LUHCFUVCJT_input_compos  |              TickPending |     145 |  0.00849 |  0.01073 |  0.03475                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |         LUHCFUVCJT_sync  |              StopPending |       1 |  0.00609 |  0.00609 |  0.00609                                                                   |
+[component_container_mt-1] |         LUHCFUVCJT_sync  |                     Idle |     145 | 1000.58341 | 1000.91807 | 1077.47205                                                                   |
+[component_container_mt-1] |         LUHCFUVCJT_sync  |                  Ticking |     145 |  0.02445 |  0.02838 |  0.05136                                                                   |
+[component_container_mt-1] |         LUHCFUVCJT_sync  |              TickPending |     145 |  0.01340 |  0.01515 |  0.03085                                                                   |
+[component_container_mt-1] |------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+[component_container_mt-1] |==================================================================================================================================================================|
+[component_container_mt-1] [INFO] [1769589423.975959931] [camera]: Close Sensor - Done. 
+[INFO] [component_container_mt-1]: process has finished cleanly [pid 10124]
